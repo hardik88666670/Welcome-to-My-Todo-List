@@ -1,0 +1,42 @@
+ *{
+        list-style-type: none;
+}
+body{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.contener{
+        background-color: red;
+        color: white;
+        padding: 40px;
+        border-radius: 16PX;
+}
+.add-btn{
+        padding: 10px;
+        border-radius: 16px;
+        margin-left: 20px;
+        border: none;
+}
+input[type="text"]{
+        padding: 10px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: none;       
+}
+.todo-item{
+        background: transparent;
+        color: black;       
+}
+.edit-btn{
+        background-color: blue;
+}
+.delete-btn{
+        background-color: chartreuse;
+}
+.edit-btn,.delete-btn{
+        padding: 10px;
+        border-radius: 16px;
+        margin-right: 10px;
+}
